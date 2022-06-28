@@ -7,6 +7,7 @@ alt: image-alt
 project-date: May 2022
 client: Min Young
 category: Play
-description: Your Name Is? 
+# description: Your Name Is? 
+description: https://flowerkong3.github.io/yourname
 url : https://flowerkong3.github.io/yourname
 ---

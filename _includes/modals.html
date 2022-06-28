@@ -20,10 +20,14 @@
 
 														<!--프로젝트 네임  -->
                             {% if post.description %}
-                                <p>{{ post.description }}</p>
-                            {% endif %}
+                                <a href="{{ post.description }}"><p>{{ post.description }}</p></a>
+														{% endif %}
+														
+														{% if post.description %}
+															<a href="{{ post.url }}">url</a>
+														{% endif %}
 
-															<a href="{{ post.url }}"></a>
+															
 
                             <ul class="list-inline item-details">
                                 {% if post.client %}
