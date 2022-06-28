@@ -8,5 +8,5 @@ project-date: May 2022
 client: Min Young
 category: Play
 description: Your Name Is? 
-url : https://flowerkong3.github.io/play_yourname
+url : https://flowerkong3.github.io/yourname
 ---
