@@ -433,6 +433,7 @@ footer .footer-below {
     font-size: 20px;
     line-height: 28px;
 		background:#db5b2d;
+		border:none;
 }
 
 .scroll-top .btn:focus {
