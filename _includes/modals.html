@@ -14,37 +14,34 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-															<a href="https://github.com/flowerkong3">
+															<a href="{{ post.category }}">
 																<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 															</a>
 
 														<!--프로젝트 네임  -->
                             {% if post.description %}
-                                <a href="{{ post.description }}"><p>{{ post.description }}</p></a>
+                                <p>{{ post.description }}</p>
 														{% endif %}
 														
-														{% if post.description %}
-															<a href="{{ post.url }}">url</a>
-														{% endif %}
-
+											
 															
 
                             <ul class="list-inline item-details">
                                 {% if post.client %}
                                     <li>Client:
-                                        <strong><a href="https://github.com/flowerkong3">{{ post.client }}</a>
+                                        <strong><a href="">{{ post.client }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="https://github.com/flowerkong3">{{ post.project-date }}</a>
+                                        <strong><a href="">{{ post.project-date }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
                                     <li>Service:
-                                        <strong><a href="https://github.com/flowerkong3">{{ post.category }}</a>
+                                        <strong><a href="{{ post.category }}">{{ post.category }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
