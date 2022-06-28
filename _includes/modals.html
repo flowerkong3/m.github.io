@@ -16,9 +16,15 @@
                             <hr class="star-primary">
 															<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 
+														<!--프로젝트 네임  -->
                             {% if post.description %}
                                 <a href="{{ post.url }}"><p>{{ post.description }}</p></a>
                             {% endif %}
+
+														<!-- 프로젝트 url -->
+														{% if post.url %}
+														<a href="{{ post.url }}">{{ post.description }}</a>
+														{% endif %}
 
                             <ul class="list-inline item-details">
                                 {% if post.client %}
