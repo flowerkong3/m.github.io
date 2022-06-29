@@ -598,6 +598,8 @@ header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3
 }
 .portfolio-desc {margin-top:10px; text-align:center; font-size:14px; color:#222}
 .about-desc {padding:0 30px; font-size: 18px; line-height:1.7;}
+.about-desc strong {display:block; margin-bottom:-2%}
+.about-tech {font-size: 14px; color: grey; max-width: 500px; margin: auto; width: 100%; line-height: 1.7;}
 
 .form-control {color:#db5b2d}
 .fa-icons:before {content: "\f86d";}
