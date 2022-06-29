@@ -6,6 +6,6 @@ img: inni.png
 alt: image-alt
 project-date: Jun 2022 - March 2021
 client: work
-category: https://github.com/flowerkong3
+category: https://github.com/flowerkong3/work/blob/main/README.md
 description: Innisfree Global Website
 ---
