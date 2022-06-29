@@ -6,6 +6,6 @@ img: inni.png
 alt: image-alt
 project-date: Jun 2022 - March 2021
 client: work
-category: https://www.innisfree.com/my/en/main
+category: https://www.innisfree.com/my/en
 description: Innisfree Global Website
 ---
