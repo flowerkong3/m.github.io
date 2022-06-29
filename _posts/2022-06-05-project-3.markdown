@@ -6,6 +6,6 @@ img: ooc.png
 alt: image-alt
 project-date: January 2021
 client: Min Young
-category: Play
+category: https://flowerkong3.github.io/ooc
 description: OOC Website
 ---
