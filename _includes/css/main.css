@@ -44,8 +44,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
-		font-family: 'Quicksand', sans-serif; 
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		/* font-family: 'Quicksand', sans-serif;  */
     font-weight: 400;
 }
 
@@ -587,7 +587,10 @@ footer .footer-below {
 
 header {background:url('img/main_bg.png')no-repeat top/cover; background-position-y: 200px;}
 
-header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3%; font-size:24px; color:#f2906d;font-family: 'Quicksand', sans-serif;}
+header .intro-text .skills-tit {
+	display:block; margin-bottom: 11px; margin-top:3%; font-size:24px; color:#f2906d;
+	/* font-family: 'Quicksand', sans-serif; */
+}
 
 .btn-success {
 	color: #222;
